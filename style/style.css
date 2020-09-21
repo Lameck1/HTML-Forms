@@ -115,6 +115,7 @@ li {
 .sign-up-sub-header {
   font-size: 14px;
   text-align: center;  
+  color: rgb(76, 76, 76);
 }
 .form-section {
   flex-direction: column;
@@ -130,11 +131,20 @@ li {
 
 .sign-up-form {
   flex-direction: column;
-  margin-top: 44px;
+  margin-top: 24px;
 }
 
 .labels {
-  box-sizing: border-box;
-  padding-bottom: 6px;
-  font-size: 14px;
-}
+ padding-bottom: 20px;
+ font-size: 14px;
+ color: rgb(76, 76, 76);
+ }
+ .input-field {
+ margin-top: 5px;
+ padding: 10px;
+ width: 290px;
+ }
+ #password {
+   background: url(images/logo.png) no-repeat 97%;
+  background-size: 27px;
+ }

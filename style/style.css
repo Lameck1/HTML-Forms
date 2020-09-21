@@ -61,9 +61,20 @@ section
 li {
   text-decoration: none;
 }
-a {
-  
+
+/*form-section*/
+.form-section {
+  flex-direction: column;
+  height: 662px;
+  width: 380px;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 2px;
+  border: #CCCCCC solid;
+  outline-width: 1px;
+  background-color: rgb(255, 255, 255);
 }
+
 /*
 .brand-logos {
   display: flex;

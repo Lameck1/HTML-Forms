@@ -75,6 +75,17 @@ li {
   background-color: rgb(255, 255, 255);
 }
 
+.form-header {
+  display: block;
+  box-sizing: border-box;
+  text-align: center;  
+  width: 318px;  
+  padding: 0px;
+  line-height: 21px;
+  margin-bottom: 24px;
+  padding-bottom: 20px;
+  }
+
 /*
 .brand-logos {
   display: flex;

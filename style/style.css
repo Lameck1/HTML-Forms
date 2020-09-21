@@ -1,8 +1,45 @@
+
+/*
+===============================
+header
+===============================
+*/
+.page-header-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.sign-up-check {
+  margin-right:1em;
+}
+.link {
+  color: royalblue;
+  text-decoration: none;
+}
+.sign-in-button {
+  color: white;
+  background: royalblue;
+  margin-right: 15px;
+  box-sizing: border-box;
+  padding: 0 20px;
+  font-size: 1.05em;
+  border-radius: 4px;
+}
+.lock {
+  width: 12px;
+  height: 16px;
+}
+/*
+===============================
+section
+===============================
+*/
+
 .main-header {
-    display: flex;
+  display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 
 .logo-container {
   display: block;
@@ -21,6 +58,12 @@
   margin-right: 9px;
 }
 
+li {
+  text-decoration: none;
+}
+a {
+  
+}
 /*
 .brand-logos {
   display: flex;

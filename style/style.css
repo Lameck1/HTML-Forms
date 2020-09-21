@@ -1,0 +1,30 @@
+.main-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-container {
+  display: block;
+  margin: 0 auto; 
+  width: 100%; 
+  
+}
+
+.b-logo {
+  width: 23px;
+  height: 23px;
+  margin-right: 4px;
+}
+
+.b-logo-text {  
+  margin-right: 9px;
+}
+
+/*
+.brand-logos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}*/

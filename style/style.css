@@ -1,8 +1,8 @@
 /*html document body*/
 
 body {
-    font-family: "AvenirNext", Avenir, "Helvetica Neue", Arial, Helvetica, sans-serif;
-    background-color: rgb(236, 239, 241);
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Arial, Helvetica, sans-serif;
+  background-color: rgb(236, 239, 241);
 }
 
 /*
@@ -12,33 +12,33 @@ header
 */
 
 .page-header-container {
-    display: flex;
-    justify-content: flex-end;
-    align-self: flex-end;
+  display: flex;
+  justify-content: flex-end;
+  align-self: flex-end;
 }
 
 .sign-up-check {
-    margin-right: 1em;
+  margin-right: 1em;
 }
 
 .link {
-    color: royalblue;
-    text-decoration: none;
+  color: royalblue;
+  text-decoration: none;
 }
 
 .sign-in-button {
-    color: white;
-    background: royalblue;
-    margin-right: 15px;
-    box-sizing: border-box;
-    padding: 0 20px;
-    font-size: 1.05em;
-    border-radius: 4px;
+  color: white;
+  background: royalblue;
+  margin-right: 15px;
+  box-sizing: border-box;
+  padding: 0 20px;
+  font-size: 1.05em;
+  border-radius: 4px;
 }
 
 .lock {
-    width: 12px;
-    height: 16px;
+  width: 12px;
+  height: 16px;
 }
 
 /*
@@ -48,188 +48,183 @@ section
 */
 
 .main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .main-header {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
 }
 
 .intuit {
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 .logo-container {
-    display: block;
-    margin: 0 auto;
-    width: 100%;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
 }
 
 .b-logo {
-    width: 23px;
-    height: 23px;
-    margin-right: 4px;
+  width: 23px;
+  height: 23px;
+  margin-right: 4px;
 }
 
 .b-logo-text {
-    margin-right: 9px;
+  margin-right: 9px;
 }
 
 li {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /*brand logos*/
 
 .brand-logos {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 /*form-section*/
 
 .form-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .sign-up-header {
-    margin-bottom: 10px;
-    color: rgb(76, 76, 76);
-    font-size: 24px;
-
+  margin-bottom: 10px;
+  color: rgb(76, 76, 76);
+  font-size: 24px;
 }
 
 .sign-up-sub-header {
-    font-size: 14px;
-    text-align: center;
-    color: rgb(76, 76, 76);
+  font-size: 14px;
+  text-align: center;
+  color: rgb(76, 76, 76);
 }
 
 .form-section {
-    flex-direction: column;
-    height: 608px;
-    width: 380px;
-    padding: 30px 30px 0px 30px;
-    box-sizing: border-box;
-    border-radius: 2px;
-    border: #CCCCCC solid;
-    outline-width: 1px;
-    background-color: rgb(255, 255, 255);
+  flex-direction: column;
+  height: 610px;
+  width: 380px;
+  padding: 30px 30px 0px 30px;
+  box-sizing: border-box;
+  border-radius: 2px;
+  border: #CCCCCC solid;
+  background-color: rgb(255, 255, 255);
 }
 
 .sign-up-form {
-    flex-direction: column;
-    margin-top: 24px;
+  flex-direction: column;
+  margin-top: 24px;
 }
 
 .labels {
-    padding-bottom: 20px;
-    font-size: 14px;
-    color: rgb(76, 76, 76);
+  padding-bottom: 20px;
+  font-size: 14px;
+  color: rgb(76, 76, 76);
 }
 
 .input-field {
-    margin-top: 5px;
-    padding: 10px;
-    width: 290px;
+  margin-top: 5px;
+  padding: 10px;
+  width: 290px;
 }
 
 #password {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .submit-button {
-    color: white;
-    background: royalblue;
-
-    padding: 0 25px;
-    font-size: 1.05em;
-    border-radius: 4px;
-    width: 312px;
-    margin-bottom: 25px;
-    height: 40px;
+  color: white;
+  background: royalblue;
+  padding: 0 25px;
+  font-size: 1.05em;
+  border-radius: 4px;
+  width: 312px;
+  margin-bottom: 25px;
+  height: 40px;
 }
 
 .form-footer {
-    display: block;
-    box-sizing: border-box;
-    font-size: 14px;
-    line-height: 21px;
-    margin: 0;
-    text-align: center;
-    font-style: italic;
+  display: block;
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 21px;
+  margin: 0;
+  text-align: center;
+  font-style: italic;
 }
 
 .captcha-container {
-    display: block;
-    background-color: rgb(236, 238, 241);  
-    line-height: 21px;
-    margin-bottom: -30px;
-    margin-left: -30px;
-    margin-right: -30px;
-    margin-top: 30px;
-    text-align: center;
-    font-size: 10px; 
-    padding: 16px;
-  }
-  
-  .ul-footer-links {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    justify-content: center;
-  }
-  
-  .ul-footer-links li a {
-    color: #505050;
-    font-size: 10px;
-    text-decoration: none;
-    margin-right: 1em;
-  }
-  
-  .footer-copyright {
-    text-align: center;
-    font-size: 12px;  
-  }
-  
-  .copyright-text {
-    line-height: 1.8em;  
-  }
-  
-  .link {
-    color: #0077C5;
-    text-decoration: none;
-    list-style: none;
-    font-size: 12px;
-  }
+  display: block;
+  background-color: rgb(236, 238, 241);
+  line-height: 21px;
+  margin-bottom: -30px;
+  margin-left: -30px;
+  margin-right: -30px;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 10px;
+  padding: 16px;
+}
 
-  .privacy-btn {
-    color: #CCCCCC;
-    height: 44px;
-    border-radius: 2px;
-    font-size: 14px;
-    position: fixed;
-    bottom: 0px;
-    right: 5%;
-    cursor: default;
-    background-color:  #505050;
-    z-index: 3;
-    display: block;
-    padding: 10px 12px;  
-  }
-  
+.ul-footer-links {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: center;
+}
+
+.ul-footer-links li a {
+  color: #505050;
+  font-size: 10px;
+  text-decoration: none;
+  margin-right: 1em;
+}
+
+.footer-copyright {
+  text-align: center;
+  font-size: 12px;
+}
+
+.copyright-text {
+  line-height: 1.8em;
+}
+
+.link {
+  color: #0077C5;
+  text-decoration: none;
+  list-style: none;
+  font-size: 12px;
+}
+
+.privacy-btn {
+  color: #CCCCCC;
+  height: 44px;
+  border-radius: 2px;
+  font-size: 14px;
+  position: fixed;
+  bottom: 0px;
+  right: 5%;
+  cursor: default;
+  background-color: #505050;
+  z-index: 3;
+  display: block;
+  padding: 10px 12px;
+}

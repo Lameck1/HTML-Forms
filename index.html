@@ -9,7 +9,8 @@
     <body>
         <header>
             <div class="page-header-container">
-                <div class="sign-up-check">Already have an Intuit account?
+                <div class="sign-up-check">
+                    Already have an Intuit account?
                     <br>
                     <a class="link" href="#">I forgot my User ID or Password</a>
                 </div>
@@ -43,19 +44,28 @@
                         <a href="#" target="_blank" class="link">Learn more</a>
                     </span>
                 </header>
-                <form class="sign-up-form container" action="#" method="#">
+                <form class="sign-up-form container" action="#" method="POST">
                     <label class="labels">
-                        Email address <br>
+                        Email address
+                        <br>
                         <input class="input-field" type="email" name="email">
                     </label>
                     <label class="labels">
-                        Phone (recommended) <br>
-                        <input class="input-field" type="tell" name="telephone"><br>
+                        Phone (recommended)
+                        <br>
+                        <input class="input-field" type="tel" name="telephone">
+                        <br>
                         <small>Standard call, messaging or data rates may apply.</small>
                     </label>
                     <label class="labels">
-                        Password <br>
-                        <input class="input-field" type="password" name="password" id="password">
+                        Password
+                        <br>
+                        <input
+                            class="input-field"
+                            type="password"
+                            name="password"
+                            id="password"
+                        >
                     </label>
                     <button class="submit-button" type="submit">
                         <img class="lock" src="images/white-lock.png" alt="Lock">
@@ -98,8 +108,9 @@
             </div>
             <div class="footer-copyright">
                 <span class="copyright-text">
-                    &copy; 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc. <br>
-            Terms and conditions, features, support, pricing, and service options subject to change without notice.
+                    &copy;2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
+                    <br>
+                    Terms and conditions, features, support, pricing, and service options subject to change without notice.
                 </span>
             </div>
             <button class="privacy-btn">Privacy Settings</button>

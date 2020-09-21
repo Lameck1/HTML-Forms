@@ -1,76 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/style.css">
-    <title>Intuit Accounts - Sign Up</title>
-</head>
-<body>
-
-    <header>
-        <div class="page-header container">
-            <div class="sign-up-check">Already have an Intuit account?</div>
-            <a class="link" href="#">I forgot my User ID or Password</a>
-            <button class="sign-in-button"><img class="lock" src="images/white-lock.png" alt="Lock"> Sign In</button>
-        </div>
-    </header>
-
-    <section class="form-section container">
-
-        
-        <header class="form-header container">
-            <span class="sign-up-header">Create an Intuit account</span>
-            <div class="sign-up-sub-header">One account for everything Intuit, including Mint.<br />
-                <a href="#" target="_blank" class="link">Learn more</a>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style/style.css">
+        <title>Intuit Accounts - Sign Up</title>
+    </head>
+    <body>
+        <header>
+            <div class="page-header container">
+                <div class="sign-up-check">Already have an Intuit account?</div>
+                <a class="link" href="#">I forgot my User ID or Password</a>
+                <button class="sign-in-button">
+                    <img class="lock" src="images/white-lock.png" alt="Lock"> Sign In
+                </button>
             </div>
         </header>
-
-        <form class="sign-up-form container" action="#" method="#">
-             <label for="user-email">Email address</label>
-             <input type="email" name="email">
-
-             <label for="user-phone">Phone (recommended)</label>
-             <input type="tell" name="telephone">
-             <small>Standard call, messaging or data rates may apply.</small>
-
-             <label for="user-password">Password</label>
-             <input type="password" name="password">
-             
-             <button type="submit">
-                <img class="lock" src="images/white-lock.png" alt="Lock">
-                Create account
-            </button>
-        </form>
-        <div class="form-footer">
-            <span>By clicking Create account, you agree to our
-                 <a href="#">Terms</a> and have read and acknowledge
-                  our <a href="#">Privacy Statement.</a></span>
-        </div>
-        <section class="captcha-container">
-            <span class="captcha-text">
-                Invisible reCAPTCHA by Google <a 
-                href="#">Privacy Policy</a> and <a href="#">Terms of Use</a>.
-            </span>
-       </section>
-      </section>
-
-    <footer class="footer">
-        <div class="footer-links">
-            <ul class="ul-footer-links">
-                <li><a href="#">Legal</a></li>
-                <li><a href="#">Privacy</a></li>
-                <li><a href="#">Security</a></li>
-            </ul>
-        </div>
-    <div class="footer-copyright">
-        <span class="copyright-text">
-            &copy; 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
+        <section class="main-header">
+            <div class="company-logo">
+                <img src="" alt="">
+            </div>
+            <div class="brand-logos"></div>
+        </section>
+        <section class="form-section container">
+            <header class="form-header container">
+                <span class="sign-up-header">Create an Intuit account</span>
+                <div class="sign-up-sub-header">One account for everything Intuit, including Mint.
+                    <br>
+                    <a href="#" target="_blank" class="link">Learn more</a>
+                </div>
+            </header>
+            <form class="sign-up-form container" action="#" method="#">
+                <label for="user-email">Email address</label>
+                <input type="email" name="email">
+                <label for="user-phone">Phone (recommended)</label>
+                <input type="tell" name="telephone">
+                <small>Standard call, messaging or data rates may apply.</small>
+                <label for="user-password">Password</label>
+                <input type="password" name="password">
+                <button type="submit">
+                    <img class="lock" src="images/white-lock.png" alt="Lock">
+                    Create account
+                </button>
+            </form>
+            <div class="form-footer">
+                <span>
+                    By clicking Create account, you agree to our
+                    <a href="#">Terms</a>
+                    and have read and acknowledge
+                  our
+                    <a href="#">Privacy Statement.</a>
+                </span>
+            </div>
+            <section class="captcha-container">
+                <span class="captcha-text">
+                    Invisible reCAPTCHA by Google
+                    <a href="#">Privacy Policy</a> and
+                    <a href="#">Terms of Use</a>
+                    .
+                </span>
+            </section>
+        </section>
+        <footer class="footer">
+            <div class="footer-links">
+                <ul class="ul-footer-links">
+                    <li>
+                        <a href="#">Legal</a>
+                    </li>
+                    <li>
+                        <a href="#">Privacy</a>
+                    </li>
+                    <li>
+                        <a href="#">Security</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-copyright">
+                <span class="copyright-text">
+                    &copy; 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
             Terms and conditions, features, support, pricing, and service options subject to change without notice.
-        </span>
-    </div>
-    <button class="privacy-btn">Privacy Settings</button>
-    </footer>
-    
-</body>
+                </span>
+            </div>
+            <button class="privacy-btn">Privacy Settings</button>
+        </footer>
+    </body>
 </html>

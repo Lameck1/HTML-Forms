@@ -120,7 +120,7 @@ li {
   padding: 30px 30px 30px;
   box-sizing: border-box;
   border-radius: 2px;
-  border: #CCC solid;
+  border: #ccc solid;
   background-color: rgb(255, 255, 255);
 }
 
@@ -178,10 +178,12 @@ li {
   font-size: 10px;
   padding: 16px;
 }
+
 .privacy-terms {
   text-decoration: none;
-  color: #0077C5;
+  color: #0077c5;
 }
+
 .ul-footer-links {
   display: flex;
   flex-direction: row;
@@ -206,14 +208,14 @@ li {
 }
 
 .link {
-  color: #0077C5;
+  color: #0077c5;
   text-decoration: none;
   list-style: none;
   font-size: 12px;
 }
 
 .privacy-btn {
-  color: #CCCCCC;
+  color: #ccc;
   height: 44px;
   border-radius: 2px;
   font-size: 14px;

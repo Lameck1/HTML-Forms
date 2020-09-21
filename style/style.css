@@ -1,4 +1,5 @@
 /*html document body*/
+
 body {
   font-family: "AvenirNext", Avenir, "Helvetica Neue", Arial, Helvetica, sans-serif;
   background-color: rgb(236, 239, 241);
@@ -9,21 +10,22 @@ body {
 header
 ===============================
 */
+
 .page-header-container {
   display: flex;
   justify-content: flex-end;
   align-self: flex-end;
 }
 
-
 .sign-up-check {
-  margin-right:1em;
+  margin-right: 1em;
 }
 
 .link {
   color: royalblue;
   text-decoration: none;
 }
+
 .sign-in-button {
   color: white;
   background: royalblue;
@@ -33,10 +35,12 @@ header
   font-size: 1.05em;
   border-radius: 4px;
 }
+
 .lock {
   width: 12px;
   height: 16px;
 }
+
 /*
 ===============================
 section
@@ -44,29 +48,31 @@ section
 */
 
 .main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .container {
-    display: flex;
-    flex-direction: column;
-  }
-    
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
 
 .main-header {
   display: flex;
-    flex-direction: column;
-    align-items: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
 }
 
+.intuit {
+  margin-bottom: 5px;
+}
 
 .logo-container {
   display: block;
-  margin: 0 auto; 
-  width: 100%; 
-  
+  margin: 0 auto;
+  width: 100%;
 }
 
 .b-logo {
@@ -75,7 +81,7 @@ section
   margin-right: 4px;
 }
 
-.b-logo-text {  
+.b-logo-text {
   margin-right: 9px;
 }
 
@@ -84,14 +90,32 @@ li {
 }
 
 /*brand logos*/
+
 .brand-logos {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 /*form-section*/
+
+.form-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+.sign-up-header {
+  margin-bottom: 10px;
+  color: rgb(76, 76, 76);
+  font-size: 24px;
+  
+}
+.sign-up-sub-header {
+  font-size: 14px;
+  text-align: center;  
+}
 .form-section {
   flex-direction: column;
   height: 662px;
@@ -102,19 +126,7 @@ li {
   border: #CCCCCC solid;
   outline-width: 1px;
   background-color: rgb(255, 255, 255);
-  margin-top: 0;
 }
-
-.form-header {
-  display: block;
-  box-sizing: border-box;
-  text-align: center;  
-  width: 318px;  
-  padding: 0px;
-  line-height: 21px;
-  margin-bottom: 24px;
-  padding-bottom: 20px;
-  }
 
 .sign-up-form {
   flex-direction: column;

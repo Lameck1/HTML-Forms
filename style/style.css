@@ -148,3 +148,13 @@ li {
    background: url(images/logo.png) no-repeat 97%;
   background-size: 27px;
  }
+ .submit-button {
+  color: white;
+  background: royalblue;
+
+  padding: 0 25px;
+  font-size: 1.05em;
+  border-radius: 4px;
+  width: 312px;
+  margin-bottom: 25px;
+  height: 40px;

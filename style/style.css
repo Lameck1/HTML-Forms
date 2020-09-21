@@ -220,7 +220,7 @@ li {
   border-radius: 2px;
   font-size: 14px;
   position: fixed;
-  bottom: 0px;
+  bottom: 1px;
   right: 5%;
   cursor: default;
   background-color: #505050;
